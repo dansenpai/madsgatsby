@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-export const NavbarWrapper = styled.ul``;
+export const NavbarWrapper = styled.ul`
+  list-style: none;
+  justify-content: space-between;
+`;
 
 export const NavbarItem = styled.li``;
 

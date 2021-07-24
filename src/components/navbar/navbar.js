@@ -1,13 +1,16 @@
 import React from "react";
-import { Main, Title, SubTitle } from "../components/shared";
-import Navbar from "../components/navbar";
+import { NavbarWrapper, NavbarItem, ItemText } from "./styles";
+import { Row, Column } from "../shared";
+import Logo from "../logo/logo";
 
-function IndexPage(props) {
+function Navbar(props) {
   return (
-    <Main>
-      <Navbar />
-    </Main>
+    <NavbarWrapper>
+      <NavbarItem>
+        <Logo />
+      </NavbarItem>
+    </NavbarWrapper>
   );
 }
 
-export default IndexPage;
+export default Navbar;
