@@ -53,13 +53,11 @@ function Privacidade() {
         <Logo />
       </Center>
 
-      <Heading1>
-        POLÍTICA DE PRIVACIDADE DA MADS ENGENHARIA E PROJETOS LTDA
-      </Heading1>
+      <Heading1>POLÍTICA DE PRIVACIDADE DA MADS ENGENHARIA LTDA</Heading1>
 
       <Backgrounded>
         <Heading2>
-          A Empresa Mads Engenharia e Projetos Ltda valoriza sua segurança.
+          A Empresa Mads Engenharia Ltda valoriza sua segurança.
         </Heading2>
         <Paragraph style={{ fontSize: 14 }}>
           Por favor, leia com atenção a política de privacidade para conhecer os
@@ -98,30 +96,29 @@ function Privacidade() {
 
       <Paragraph>
         As informações solicitadas aos usuários são as necessárias à realização
-        dos serviços prestados pela Empresa Mads Engenharia e Projetos Ltda e
-        ficarão armazenadas para fins operacionais e, quando expressamente
-        autorizado, para relacionamento comercial com os mesmos.
+        dos serviços prestados pela Empresa Mads Engenharia Ltda e ficarão
+        armazenadas para fins operacionais e, quando expressamente autorizado,
+        para relacionamento comercial com os mesmos.
       </Paragraph>
 
       <Paragraph>
         As informações pessoais coletadas no site são armazenadas com padrões
         rígidos de confidencialidade e segurança e nenhum documento, informação
-        ou registro sob a guarda da Empresa Mads Engenharia e Projetos Ltda é
-        fornecido a terceiros, exceto se expressamente autorizado pelo usuário
-        ou mediante ordem judicial ou por determinação legal.
+        ou registro sob a guarda da Empresa Mads Engenharia Ltda é fornecido a
+        terceiros, exceto se expressamente autorizado pelo usuário ou mediante
+        ordem judicial ou por determinação legal.
       </Paragraph>
 
       <Paragraph>
-        Como o sítio eletrônico da Empresa Mads Engenharia e Projetos Ltda
-        permite a interação com redes sociais como o Facebook, Instragram,
-        Google e Apple, as informações obtidas estão sujeitas às configurações
-        de privacidade do Usuário na rede social.
+        Como o sítio eletrônico da Empresa Mads Engenharia Ltda permite a
+        interação com redes sociais como o Facebook, Instragram, Google e Apple,
+        as informações obtidas estão sujeitas às configurações de privacidade do
+        Usuário na rede social.
       </Paragraph>
       <Paragraph>
         A coleta de informações será feita através de e-mail e cadastro em
         formulário próprio. Além dos dados fornecidos, pela Empresa Mads
-        Engenharia e Projetos Ltda pode captar dados de navegação por meio de
-        "cookies".
+        Engenharia Ltda pode captar dados de navegação por meio de "cookies".
       </Paragraph>
       <Paragraph>
         Os registros de acessos (IP´s, dados e datas de acessos) serão
@@ -166,8 +163,8 @@ function Privacidade() {
       </Backgrounded>
 
       <Paragraph>
-        A Empresa Mads Engenharia e Projetos Ltda busca garantir segurança e
-        privacidade dos usuários do site, assim os mesmos não deverão:
+        A Empresa Mads Engenharia Ltda busca garantir segurança e privacidade
+        dos usuários do site, assim os mesmos não deverão:
       </Paragraph>
 
       <Paragraph padded>
@@ -194,17 +191,17 @@ function Privacidade() {
         As partes acordam que as informações constantes do site hospedado, dos
         e-mails que por ele trafegarem e dos bancos de dados utilizados pelo
         USUÁRIO estão cobertas pela cláusula de sigilo e confidencialidade, não
-        podendo o A Empresa Mads Engenharia e Projetos Ltda, ressalvados os
-        casos de ordem, pedido ou determinação judicial de qualquer espécie a
-        fim de esclarecer fatos ou circunstâncias e instruir investigação,
-        inquérito e denúncia em curso, revelar as informações a terceiros.
+        podendo o A Empresa Mads Engenharia Ltda, ressalvados os casos de ordem,
+        pedido ou determinação judicial de qualquer espécie a fim de esclarecer
+        fatos ou circunstâncias e instruir investigação, inquérito e denúncia em
+        curso, revelar as informações a terceiros.
       </Paragraph>
 
       <Paragraph>
-        A Empresa Mads Engenharia e Projetos Ltda não será responsável por
-        violações dos dados e informações acima referidas resultantes de atos de
-        terceiros ou de pessoas autorizadas pelo USUÁRIO e nem daquelas
-        resultantes da ação criminosa ou irregular de terceiros (“hackers”).
+        A Empresa Mads Engenharia Ltda não será responsável por violações dos
+        dados e informações acima referidas resultantes de atos de terceiros ou
+        de pessoas autorizadas pelo USUÁRIO e nem daquelas resultantes da ação
+        criminosa ou irregular de terceiros (“hackers”).
       </Paragraph>
 
       <Backgrounded>
@@ -212,11 +209,11 @@ function Privacidade() {
       </Backgrounded>
 
       <Paragraph>
-        A Empresa Mads Engenharia e Projetos Ltda não se responsabiliza pelo
-        preenchimento dos cadastros para a formalização de cotação de preços
-        quanto das placas solares, sendo este de única e exclusiva
-        responsabilidade do mesmo, podendo responder civil e criminalmente pelo
-        preenchimento com a intenção e má-fé, ou falsificação ideológica.
+        A Empresa Mads Engenharia Ltda não se responsabiliza pelo preenchimento
+        dos cadastros para a formalização de cotação de preços quanto das placas
+        solares, sendo este de única e exclusiva responsabilidade do mesmo,
+        podendo responder civil e criminalmente pelo preenchimento com a
+        intenção e má-fé, ou falsificação ideológica.
       </Paragraph>
 
       <Backgrounded>
@@ -261,8 +258,7 @@ function Privacidade() {
       <Backgrounded>
         <Paragraph center>
           O usuário se declara ciente da política de privacidade sa empresa Mads
-          Engenharia e Projetos Ltda, obrigando-se a cumprir as disposições aqui
-          contidas.
+          Engenharia Ltda, obrigando-se a cumprir as disposições aqui contidas.
         </Paragraph>
       </Backgrounded>
     </Page>

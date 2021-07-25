@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import Banner from "../components/banner";
 import styled from "styled-components";
 import ImageBanner from "../images/banner-bottom.png";
+import Seo from "../components/seo";
 
 const Footer2 = styled.div`
   display: flex;
@@ -102,11 +103,12 @@ const buttons = [
 
 function IndexPage(props) {
   function openWhatsapp() {
-    window.open("https://wa.me/5586999001465");
+    window.open("https://wa.me/5586988937435");
   }
 
   return (
     <div>
+      <Seo />
       <Main>
         <Banner />
         <Banner2>

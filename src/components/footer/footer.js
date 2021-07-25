@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
@@ -46,7 +46,6 @@ const Column = styled.div`
 
   @media (max-width: 700px) {
     max-width: 100%;
-    width: 80%;
     margin-top: 40px;
   }
 `;
@@ -65,7 +64,15 @@ const Row = styled.div`
   }
 `;
 
-const Address = styled.div``;
+const Address = styled.div`
+  ${({ border }) =>
+    border &&
+    css`
+      border-right: 1px solid rgba(255, 255, 255, 1);
+      margin-right: 15px;
+      padding-right: 10px;
+    `}
+`;
 
 const Street = styled.div`
   font-weight: normal;
@@ -78,6 +85,9 @@ const Neighboor = styled.div`
   font-weight: normal;
   color: #fff;
   font-size: 14px;
+  @media (max-width: 700px) {
+    text-align: ${({ center }) => (center ? "center" : "left")};
+  }
 `;
 
 const OrcamentButton = styled.button`
@@ -94,12 +104,14 @@ const OrcamentButton = styled.button`
 const IconsWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 `;
 
 const Icon = styled(FontAwesomeIcon)`
   width: 25px;
   height: 30px;
+  cursor: pointer;
+  margin: 0 10px;
 `;
 
 const CopyRightWrapper = styled.div`
@@ -142,6 +154,14 @@ const Link = styled.a`
 `;
 
 function Footer() {
+  function openFacebook() {
+    window.open("https://www.facebook.com/mads_engenharia-100725998328196/");
+  }
+
+  function openInstagram() {
+    window.open("https://instagram.com/mads_engenharia?igshid=f79yjsi49h6o");
+  }
+
   return (
     <BackgroundFooter>
       <FooterWrapper>
@@ -157,32 +177,59 @@ function Footer() {
             <Subtitle style={{ opacity: "0.5" }}>Endereço Matriz</Subtitle>
             <Address>
               <Street>Rua Tufy Salomão, 3219</Street>
-              <Neighboor>Itararé, Teresina-Piauí</Neighboor>
+              <Neighboor center>Itararé, Teresina-Piauí</Neighboor>
+            </Address>
+
+            <Subtitle style={{ opacity: "0.5", marginTop: 20 }}>
+              Endereço filial
+            </Subtitle>
+            <Address>
+              <Street>BR 316 Km 361, S/N</Street>
+              <Neighboor>Cohab III, Cond Gran Ville, Bacabal-MA</Neighboor>
             </Address>
           </Column>
 
           <Column>
-            <Subtitle style={{ opacity: "0.5" }}>Telefone</Subtitle>
-            <Address>
-              <Neighboor>86 9972-6847</Neighboor>
-            </Address>
+            <Subtitle style={{ opacity: "0.5" }}>Telefones</Subtitle>
+            <div style={{ display: "flex" }}>
+              <Address border>
+                <Subtitle style={{ opacity: "0.5" }}>Piauí</Subtitle>
+                <Neighboor>(86) 99915-7513</Neighboor>
+                <Neighboor>(86) 98893-7435</Neighboor>
+              </Address>
+              <Address>
+                <Subtitle style={{ opacity: "0.5" }}>Maranhão</Subtitle>
+                <Neighboor>(99) 99231-5062 </Neighboor>
+                <Neighboor>(99) 98111-0182 </Neighboor>
+              </Address>
+            </div>
           </Column>
 
           <Column>
             <Subtitle style={{ opacity: "0.5" }}>Confira nossas redes</Subtitle>
             <IconsWrapper>
-              <Icon size="2x" color={"#fff"} icon={faInstagram} />
-              <Icon size="2x" color={"#fff"} icon={faFacebookF} />
-              <Icon size="2x" color={"#fff"} icon={faYoutube} />
-              <Icon size="2x" color={"#fff"} icon={faLinkedin} />
+              <Icon
+                onClick={openInstagram}
+                size="2x"
+                color={"#fff"}
+                icon={faInstagram}
+              />
+              <Icon
+                onClick={openFacebook}
+                size="2x"
+                color={"#fff"}
+                icon={faFacebookF}
+              />
+              {/* <Icon size="2x" color={"#fff"} icon={faYoutube} /> */}
+              {/* <Icon size="2x" color={"#fff"} icon={faLinkedin} /> */}
             </IconsWrapper>
           </Column>
         </Row>
 
         <CopyRightWrapper>
           <Copy>
-            © 2021 Mads Engenharia Ltda - Todos os direitos reservados. CNPJ:
-            18.269.815/0001-36.
+            © 2021 Mads Engenharia Ltda Todos os direitos reservados. CNPJ:
+            32.148.032/0001-25.
           </Copy>
 
           <LinksWrapper>
