@@ -93,6 +93,7 @@ const Neighboor = styled.div`
 const OrcamentButton = styled.button`
   margin-top: 20px;
   padding: 20px;
+
   background-color: transparent;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -162,6 +163,10 @@ function Footer() {
     window.open("https://instagram.com/mads_engenharia?igshid=f79yjsi49h6o");
   }
 
+  function openEmail() {
+    window.open("mailto:");
+  }
+
   return (
     <BackgroundFooter>
       <FooterWrapper>
@@ -203,6 +208,16 @@ function Footer() {
                 <Neighboor>(99) 98111-0182 </Neighboor>
               </Address>
             </div>
+
+            <Address style={{ marginTop: 20 }}>
+              <Subtitle style={{ opacity: "0.5" }}>Email</Subtitle>
+              <Neighboor
+                onClick={openEmail}
+                style={{ cursor: "pointer", textDecoration: "underline" }}
+              >
+                madsengenharialtda@gmail.com
+              </Neighboor>
+            </Address>
           </Column>
 
           <Column>
