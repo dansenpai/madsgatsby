@@ -5,9 +5,13 @@ export const NavbarWrapper = styled.ul`
   align-items: center;
   list-style: none;
   justify-content: space-between;
-  width: 100%;
   height: 80px;
+  padding: 0 40px;
   margin: 0;
+
+  @media (max-width: 700px) {
+    padding: 0 20px;
+  }
 `;
 
 export const NavbarItem = styled.li``;

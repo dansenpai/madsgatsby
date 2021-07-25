@@ -1,21 +1,24 @@
-import React from 'react';
+import React from "react";
 import {
   BannerWrapper,
+  BackgroundWrapper,
   Column,
   Subtitle,
-  Title
-} from './styles';
+  Title,
+} from "./styles";
 import Navbar from "../navbar";
 
 function Banner() {
   return (
-    <BannerWrapper>
-      <Navbar />
-      <Column>
-        <Title>ENERGIA SOLAR</Title>
-        <Subtitle>Investindo na sua economia</Subtitle>
-      </Column>
-    </BannerWrapper>
+    <BackgroundWrapper>
+      <BannerWrapper>
+        <Navbar />
+        <Column>
+          <Title>ENERGIA SOLAR</Title>
+          <Subtitle>Investindo na sua economia</Subtitle>
+        </Column>
+      </BannerWrapper>
+    </BackgroundWrapper>
   );
 }
 

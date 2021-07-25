@@ -1,23 +1,41 @@
 import styled from "styled-components";
-import BannerImage  from '../../images/banner-top.png'
+import BannerImage from "../../images/banner-top.png";
 
-export const BannerWrapper = styled.div`
-  height: 560px;
+export const BackgroundWrapper = styled.div`
+  height: 500px;
   background-size: cover;
   background-image: url(${BannerImage});
+  background-position: center;
+
+  @media (max-width: 700px) {
+    max-height: 400px;
+  }
+`;
+
+export const BannerWrapper = styled.div`
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
 `;
 
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
   padding: 80px 40px;
-`;
 
+  @media (max-width: 700px) {
+    padding: 40px 20px;
+  }
+`;
 
 export const Title = styled.div`
   font-size: 55px;
   font-weight: bold;
   color: #000063;
+
+  @media (max-width: 700px) {
+    font-size: 30px;
+  }
 `;
 
 export const Subtitle = styled.div`
@@ -25,6 +43,10 @@ export const Subtitle = styled.div`
   font-weight: 500;
   color: #000063;
   font-weight: 500;
+
+  @media (max-width: 700px) {
+    font-size: 20px;
+  }
 `;
 
 export const StoreLinks = styled.div`
