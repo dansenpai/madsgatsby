@@ -10,7 +10,7 @@ const title = "Mads Engenharia Ltda";
 
 function SEO(props) {
   return (
-    <Helmet title={title} titleTemplate={`${title} %s`}>
+    <Helmet title={title} titleTemplate={`${title}`}>
       <meta name="description" content={description} />
       <meta name="image" content={logo} />
       <meta property="og:url" content={"https://madseng.com.br"} />
